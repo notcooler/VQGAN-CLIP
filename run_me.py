@@ -136,7 +136,7 @@ def selectModel():
         avalaibleModels.append(Choice(os.path.basename(file_)[:-5]))
     if avalaibleModels == []:
         print(f"{Fore.RED}There is no download module in ./models, please download one by going to the setup menu!\nOr reading readme.md!")
-        wait(4)
+        sleep(4)
         setConsoleSize()
         clear()
         runMain()
@@ -157,7 +157,7 @@ def selectModel():
 def editSlot(slotCount):
     clear()
     print(slotsLogo)
-    print("Read readme.md if you want your art generator to correctly work")
+    print(f"{Fore.YELLOW}Read readme.md if you want your art generator to correctly work")
     print(f'{Fore.MAGENTA}─'*os.get_terminal_size().columns)
     args = Args(
         selectModel(),
@@ -287,14 +287,14 @@ def runSlot():
         if choiceStr.isnumeric():
             choiceInt = int(choiceStr)
             if choiceInt < len(slots)+1 and choiceInt != 0:
-                if choiceInt != 6:
-                    selectSlot(choiceInt)
-                    break
-                else:
+                if choiceInt == 6:
                     setConsoleSize()
                     clear()
                     runMain()
-                    break 
+                    break
+                else:
+                    selectSlot(choiceInt)
+                    break
 
 def getPath():
     return os.path.abspath("./")
