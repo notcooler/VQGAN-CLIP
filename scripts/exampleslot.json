@@ -1,0 +1,11 @@
+[
+    {
+       "model":"imagenet_16384",
+       "prompts":"A blue house in the forest",
+       "width":"512",
+       "height":"512",
+       "interval_image":"50",
+       "seed":-1,
+       "max_iterations":-1
+    }
+ ]
