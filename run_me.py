@@ -20,7 +20,7 @@ from plugins.choice import Choice, printAllChoice
 from plugins.Args import Args
 
 from plugins.util import startBanner, clear, getPlatform, setConsoleSize, wait, logo, setupLogo, models, slotsLogo
-import generator
+#import generator
 
 def downloadModel():
     while True:
@@ -91,7 +91,7 @@ def downloadLibs():
 
         # sub.call("".split(' '))
         print(f"{yellow}Downloading all pip libraries!{Style.RESET_ALL}")
-        sub.call("pip install -r ./scripts/requirements.txt".split(' '))
+        sub.call("pip install -r ./requirements.txt".split(' '))
         a = "python3"
         if getPlatform() == "win": a="py"
         sub.call(f"{a} -m pip install --upgrade pillow".split(' '))
@@ -100,6 +100,10 @@ def downloadLibs():
         sub.call("brew install exempi".split(' '))
 
         print(f"{Fore.LIGHTGREEN_EX}Successfully completed process!")
+        sub.call("python3 libinstalled.py".split(' '))
+        os._exit(0)
+    except TypeError:
+        pass
         os._exit(0)
     except Exception as e:
         print(red+e)

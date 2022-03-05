@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#ai
+/CLIP
+/taming
+/taming-transformers
+/models/*.yaml
+/models/*.ckpt
+/scripts/slots/*.json
 # C extensions
 *.so
 
