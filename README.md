@@ -1,6 +1,6 @@
 # VQGAN+CLIP
 **NOTE: I didn't do any of this code, the only thing i did was make it runnable on a local computer!**
-Contact: 
+Contact: Cooler#8190
 How higher the resolution of the image gonna be how longer its gonna take!
 ## How 2 use!
 **You can also create a venv if you want!** ```python3 -m venv env```
