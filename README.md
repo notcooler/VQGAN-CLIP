@@ -4,6 +4,7 @@ Contact: Cooler#8190
 How higher the resolution of the image gonna be how longer its gonna take!
 ## How 2 use!
 **You can also create a venv if you want!** ```python3 -m venv env```
+First create a directory named models!
 - Step 1(Install all the required files!): ```pip3 install -r requirements.txt```
 - Step 2(Run run_me.py): ```python3 run_me.py```
 ![Imgur](https://i.imgur.com/X6CGE79.png)
