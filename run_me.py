@@ -71,10 +71,10 @@ def downloadLibs():
         print(f"{white}Starting process...")
 
         print(f"{yellow}Downloading CLIP...{Style.RESET_ALL}")
-        sub.call("git clone https://github.com/openai/CLIP ./CLIP".split(' '))
+        sub.call("git clone https://github.com/openai/CLIP".split(' '))
         
         print(f"{yellow}Downloading VQGAN..{Style.RESET_ALL}.")
-        sub.call("git clone https://github.com/CompVis/taming-transformers ./taming-transformers".split(' '))
+        sub.call("git clone https://github.com/CompVis/taming-transformers".split(' '))
 
         # print(f"{yellow}Creating venv..{Style.RESET_ALL}.")
         # try:
@@ -97,7 +97,7 @@ def downloadLibs():
         sub.call(f"{a} -m pip install --upgrade pillow".split(' '))
 
         print(f"{yellow}Downloading exempi...{Style.RESET_ALL}")
-        sub.call("brew install exempi".split(' '))
+        # sub.call("brew install exempi".split(' '))
 
         print(f"{Fore.LIGHTGREEN_EX}Successfully completed process!")
         sub.call("python3 libinstalled.py".split(' '))

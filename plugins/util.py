@@ -74,7 +74,7 @@ def setConsoleSize(*_x, **_y):
     if _x != None and len(_x) != 0: x = str(_x[0])
     if _y != None and len(_x) != 0: y = str(_x[1])
     if getPlatform() == "win":
-        os.system(f'mode {x},{y}')
+        os.system(f'mode {y},{x}')
     elif getPlatform() == "lin" or getPlatform() == "mac":
         os.system(f'resize -s {x} {y}')
     else:
