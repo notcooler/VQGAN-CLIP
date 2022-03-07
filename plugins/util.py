@@ -54,7 +54,7 @@ def getPlatform():
     plt = "unknown"
     if platform == "linux" or platform == "linux2":
         plt = "lin"
-    elif platform == "win":
+    elif platform == "win32":
         plt = "win"
     elif platform == "darwin":
         plt = "mac"
