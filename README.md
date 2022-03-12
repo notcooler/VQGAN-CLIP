@@ -4,7 +4,9 @@ Contact: Cooler#8190
 How higher the resolution of the image gonna be how longer its gonna take!
 ## OS Support
 ☑️ MacOS
+
 ❌ Windows(It can work but you need to find a way to download exempi)
+
 ❓ Linux(didnt test but it prob gonna work)
 ## How 2 use!
 **You can also create a venv if you want!** ```python3 -m venv env```
