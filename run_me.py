@@ -97,7 +97,7 @@ def downloadLibs():
         sub.call(f"{a} -m pip install --upgrade pillow".split(' '))
 
         print(f"{yellow}Downloading exempi...{Style.RESET_ALL}")
-        # sub.call("brew install exempi".split(' '))
+        sub.call("brew install exempi".split(' '))
 
         print(f"{Fore.LIGHTGREEN_EX}Successfully completed process!")
         sub.call("python3 libinstalled.py".split(' '))
