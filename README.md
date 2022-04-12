@@ -3,11 +3,11 @@
 Contact: Cooler#8190
 How higher the resolution of the image gonna be how longer its gonna take!
 ## OS Support
-☑️ MacOS
+☑️ MacOS Tester: Me
 
-❌ Windows(It can work but you need to find a way to download exempi)
+❌ Windows(It can work but you need to find a way to download exempi) Tester: lust#9408
 
-❓ Linux(didnt test but it prob gonna work)
+❓ Linux(didnt test but it prob gonna work) Tester: Dm me if u wanna test it. Cooler#8190
 ## How 2 use!
 **You can also create a venv if you want!** ```python3 -m venv env```
 First create a directory named models!
