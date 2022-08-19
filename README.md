@@ -1,3 +1,4 @@
+# DISCONTINUED, and also the code is kinda broken.
 # VQGAN+CLIP
 **NOTE: I didn't do any of this code, the only thing i did was make it runnable on a local computer!**
 Contact: Cooler#8190
